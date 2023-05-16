@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.page  {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(space.avif);
+}
+.chat_tab{
+    width: 30vw;
+    height: 60vh;
+    position: absolute;
+    top: 40vh;
+    left: 70vw;
+    background-color: white;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(91.18deg, rgb(35, 78, 176) -0.09%, rgb(182, 86, 226) 99.89%);
+    padding: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.container .sent{
+    float: right;
+    background-image: linear-gradient(91.18deg, rgb(35, 78, 176) -0.09%, rgb(182, 86, 226) 99.89%);
+    border-radius: 10%;
+    margin: 3px;
+    /* width: 60%; */
+    padding: 5px;
+    text-align: center;
+}
+.container .received{
+    float: left;
+    background-image: linear-gradient(91.18deg, rgb(35, 78, 176) -0.09%, rgb(182, 86, 226) 99.89%);
+    border-radius: 5%;
+    margin: 3px;
+    /* width: 60%; */
+    padding: 5px;
+    text-align: center;
+}
+.textbox{
+    color: white;
+    height: 7%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.textbox #msg{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(91.18deg, rgb(35, 78, 176) -0.09%, rgb(182, 86, 226) 99.89%);
+    padding: 5px;
+    font-size: 1rem;
+}
+.textbox button{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.277);
+    right: 0;
+    height: 100%;
+    color: white;
+    border: none;
+    padding: 4px;
+}
